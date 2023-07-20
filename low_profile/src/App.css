@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+header nav ul li {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+header nav ul li:hover {
+    color: green;
+}
+
+.active {
+    color: green;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+/* main */
+main {
+    min-height: 82vh;
+}
+
+/* about page */
+
+.about-page {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.about-image {
+    width: 30%;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about-details {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-details p {
+    font-size: 22px;
+    line-height: 2;
+}
+
+/* portfolio page */
+
+.portfolio-page {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 30%;
+    border: 1px solid #ccc;
+    box-shadow: 5px 10px #ccc;
+}
+
+.project img {
+    width: 100%;
+    height: 400px;
+}
+
+.project div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project a {
+    display: inline-block;
+    width: 49%;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+/* forms */
+.contact-page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+form, .contact-page h2 {
+    max-width: 400px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+
+@media (max-width:720px) {
+    .project{
+        width: 49%;
+    }
+}
+
+@media (max-width:640px) {
+
+    header h1,
+    header nav {
+        width: 100%;
+    }
+
+    header h1 {
+        padding-left: 20px;
+    }
+
+    header {
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    nav {
+        background-color: rgb(58, 57, 57);
+        padding: 10px 0;
+        padding-right: 10px;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+    }
+
+    .about-image,
+    .about-details {
+        width: 100%;
+    }
+}
