@@ -177,6 +177,10 @@ textarea {
     resize: none;
   }
 
+  /* resume */
+
+ 
+
 @media (max-width:720px) {
     .project{
         width: 49%;

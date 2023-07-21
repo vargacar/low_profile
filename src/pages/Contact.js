@@ -34,10 +34,10 @@ const Contact = () => {
 
         <input type="submit" value="Submit" />
       </form>
-      <h2>
+      {/* <h2>
         <a href='https://www.linkedin.com/' target='_blank'>LinkedIn</a>
         <a href='https://github.com/vargacar' target='_blank'>GitHub</a>
-      </h2>
+      </h2> */}
     </div>
   )
 }

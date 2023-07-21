@@ -1,10 +1,12 @@
 import React from 'react'
+import profileImage from '../images/profile.jpg'
+
 
 const About = () => {
   return (
     <div className='about-page'>
       <div className='about-image'>
-        <img src='/profile.jpg' alt='Profile' />
+        <img src = {profileImage} alt='Profile' />
       </div>
       <div className='about-details'>
         <h1>About Me</h1>
