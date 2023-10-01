@@ -5,8 +5,8 @@
 }
 
 header {
-    background-color: black;
-    color: white;
+    background-color: #c0b2a3;
+    color: #324362;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -17,6 +17,7 @@ header {
 
 header h1 {
     font-size: 40px;
+    font-family: 'Caveat', cursive;
 }
 
 header nav ul {
@@ -28,52 +29,59 @@ header nav ul {
 header nav ul li {
     font-size: 20px;
     cursor: pointer;
+    font-family: 'Caveat', cursive;
 }
-
 header nav ul li:hover {
-    color: green;
+    color: #43BF87;
 }
 
 .active {
-    color: green;
+    color: #43BF87;
 }
 
 /* footer */
 footer {
-    background-color: black;
-    color: white;
+    background-color: #c0b2a3;
+    color: #324362;
     padding: 20px;
     text-align: center;
 }
 
-footer a{
-    color: white;
+footer a {
+    color: #324362;
     font-size: 25px;
     margin-left: 15px;
 }
 
+footer a:hover {
+    color: #43BF87;
+}
+
 /* main */
 main {
-    min-height: 82vh;
+    min-height: 80vh;
+    background-color: #F6F2EE;
+    padding-top: 15px;
 }
 
 /* about page */
 
 .about-page {
-    padding: 20px;
     display: flex;
     justify-content: center;
-    gap: 20px;
     flex-wrap: wrap;
 }
 
 .about-image {
-    width: 30%;
+    width: 50%;
+    background-color: #f6f2ee;
+    padding: 25px;
 }
 
 .about-image img {
-    width: 100%;
-    border-radius: 50%;
+    width: 90%;
+    padding: 1px;
+    height: 100%;
 }
 
 .about-details {
@@ -82,6 +90,9 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #ebe2da;
+    font-family: 'Caveat', cursive;
+    padding: 20px;
 }
 
 .about-details p {
@@ -97,6 +108,7 @@ main {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    background-color: #F6F2EE;
 }
 
 .project {
@@ -118,11 +130,15 @@ main {
 .project a {
     display: inline-block;
     width: 49%;
-    background-color: black;
+    background-color: #324362;
     text-align: center;
     text-decoration: none;
     padding: 10px;
-    color: white;
+    color: #5B699C;
+}
+
+.project a:hover {
+    background-color: #43BF87;
 }
 
 /* forms */
@@ -133,9 +149,11 @@ main {
     row-gap: 30px;
     justify-content: center;
     align-items: center;
+    background-color: #F6F2EE;
 }
 
-form, .contact-page h2 {
+form,
+.contact-page h2 {
     max-width: 400px;
 }
 
@@ -145,15 +163,15 @@ select {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #43BF87;
     border-radius: 4px;
     box-sizing: border-box;
 }
 
 input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #c0b2a3;
+    color: #FFE7E2;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -162,7 +180,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #43BF87;
 }
 
 textarea {
@@ -175,14 +193,43 @@ textarea {
     background-color: #f8f8f8;
     font-size: 16px;
     resize: none;
-  }
+}
 
-  /* resume */
+/* resume */
 
- 
+.skills {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: black;
+    color: #F6F2EE;
+    width: 30%;
+    display: block;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    min-height: 500px;
+    line-height: 2;
+    margin: auto;
+    padding: 20px;
+}
+
+.about-resume h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.resume-button {
+    display: block;
+    width: 200px;
+    margin: auto;
+    /* margin-top: 15px; */
+    text-decoration: none;
+    background-color: #c0b2a3;
+    color: #5B699C;
+    padding: 10px;
+    text-align: center;
+}
 
 @media (max-width:720px) {
-    .project{
+    .project {
         width: 49%;
     }
 }
@@ -218,4 +265,8 @@ textarea {
     .about-details {
         width: 100%;
     }
+
+   .skills {
+    width:100%;
+   }
 }

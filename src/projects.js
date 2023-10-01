@@ -7,17 +7,17 @@ const projects = [
     },
     
     {
-        imageUrl: 'website.jpg',
-        name: 'General Website',
-        demo: '',
-        code: ''
+        imageUrl: 'factory.jpg',
+        name: 'The Event Factory',
+        demo: 'https://project-3-template-0188627b3255.herokuapp.com/',
+        code: 'https://github.com/vargacar/mixologist'
     },
 
     {
-        imageUrl: 'clock-app.jpg',
-        name: 'Time app',
-        demo: '',
-        code: ''
+        imageUrl: 'explore.png',
+        name: 'Explore Nearby',
+        demo: 'https://knudsam.github.io/explore-nearby/',
+        code: 'https://github.com/knudsam/explore-nearby'
     },
 
     // {
