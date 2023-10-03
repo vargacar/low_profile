@@ -233,6 +233,18 @@ textarea {
     background-color: #F4E7A5;
 }
 
+@media (max-width:450px)  {
+    .header nav ul li, footer {
+        color: #324362;
+}
+}
+
+@media (max-width:450px) {
+    header, footer a {
+        color: #F4E7A5
+    }
+}
+
 @media (max-width:720px) {
     .project {
         width: 49%;
