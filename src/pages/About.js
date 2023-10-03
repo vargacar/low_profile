@@ -10,8 +10,7 @@ const About = () => {
       </div>
       <div className='about-details'>
         <h1>About Me</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab optio neque ipsam perspiciatis quam qui soluta iste commodi nam,
-          veritatis deleniti, ad sequi laborum rerum eligendi tempora animi ipsa quae.</p>
+        <p>I am an entry level developer, just finished a full stack developer bootcamp with Rutgers University, where I found how much I enjoy coding. I am very creative, innovative, organized and LOVE coffee and nature.</p>
       </div>
     </div>
   )

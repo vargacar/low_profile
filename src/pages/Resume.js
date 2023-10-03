@@ -3,7 +3,7 @@ import React from 'react'
 const Resume = () => {
   return (
     <>
-      <a className="resume-button" href="./ResumeOfficial.pdf" download="ResumeOfficial.pdf">My Resume</a>
+      <a className="resume-button" href="./ResumeOfficial.pdf" download="ResumeOfficial.pdf">My Resume (click here)</a>
       <div className='about-resume'>
             <h3>Skills</h3>
               <div className='skills'>
@@ -12,7 +12,8 @@ const Resume = () => {
             lastName: 'Vargas',<br></br>
             title: 'Full Stack Javascript Developer',<br></br>
             remotePosition: true,<br></br>
-            yearsOfExperience: 'Entry Level,<br></br>
+            yearsOfExperience: 'Entry Level',<br></br>
+            skills = <br></br>
             ['User Authentication',<br></br>
             'React.js', <br></br>
             'Progressive Web Applications (PWAs)', <br></br>
