@@ -234,13 +234,13 @@ textarea {
 }
 
 @media (max-width:450px)  {
-    .header nav ul li, footer {
+    .header nav ul li {
         color: #324362;
 }
 }
 
 @media (max-width:450px) {
-    header, footer a {
+    header {
         color: #F4E7A5
     }
 }
