@@ -20,12 +20,12 @@ const projects = [
         code: 'https://github.com/knudsam/explore-nearby'
     },
 
-    // {
-    //     imageUrl: '/profile.jpg',
-    //     name: 'project name',
-    //     demo: '',
-    //     code: ''
-    // },
+    {
+        imageUrl: 'screenshot.png',
+        name: 'Minutes Reading',
+        demo: 'https://www.carolinavargas.dev/javaPrac/',
+        code: 'https://github.com/vargacar/javaPrac'
+    },
 
     // {
     //     imageUrl: '/profile.jpg',
